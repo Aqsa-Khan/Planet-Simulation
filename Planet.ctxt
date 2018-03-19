@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=px\ py\ vx\ vy\ m\ file
+comment0.target=Planet(double,\ double,\ double,\ double,\ double,\ java.lang.String)
+comment1.params=
+comment1.target=void\ display()
+comment1.text=\n\ Displays\ object\ on\ the\ screen\n
+comment2.params=fx\ fy\ dt
+comment2.target=void\ updatePosition(double,\ double,\ double)
+comment2.text=\n\ Updates\ the\ object's\ position\ and\ velocity\ as\ well\ as\ caluclates\ acceleration\ of\ the\ object\ using\ the\ forces\ in\ the\ x\ and\ y\ and\ a\ time\ step.\n\ @param\ fx\ Initial\ force\ in\ the\ x\ direction\ of\ an\ object\ \n\ @param\ fy\ Initial\ force\ in\ the\ y\ direction\ of\ an\ object\n\ @param\ dt\ Initial\ time\ step\n
+comment3.params=other
+comment3.target=double\ calculateFx(Planet)
+comment3.text=\n\ Calulates\ the\ force\ in\ the\ x\ position\ that\ is\ acting\ on\ one\ planet\ by\ another\ planet.\ \n\ @return\ Calculated\ force\ in\ the\ x\ position\ on\ one\ planet\n
+comment4.params=other
+comment4.target=double\ calculateFy(Planet)
+comment4.text=\n\ Calculates\ the\ force\ in\ the\ y\ position\ that\ is\ acting\ on\ one\ planet\ by\ another\ planet.\n\ @return\ Calculated\ force\ in\ the\ y\ position\ on\ one\ planet\n
+numComments=5

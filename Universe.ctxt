@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Main\ method\ that\ creates\ a\ universe\ object\n
+comment1.params=endT_init\ deltaT_init\ universeFile_init
+comment1.target=Universe(double,\ double,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ universe\ object\n\ \n\ @param\ endT_init\ Initial\ value\ of\ the\ end\ time\ of\ the\ simulation\n\ @param\ deltaT_init\ Initial\ value\ of\ the\ time\ step\ of\ the\ simulation\n\ @param\ universeFile_init\ Initial\ file\ name\ of\ the\ file\ containing\ information\ about\ the\ planet\ objects\n
+comment2.params=
+comment2.target=void\ runSimulation()
+comment2.text=\n\ Runs\ simulation\n
+comment3.params=
+comment3.target=void\ readUniverse()
+comment3.text=\n\ Reads\ the\ text\ file\ that\ contains\ information\ about\ the\ universe\ and\ planet\ objects\n
+comment4.params=
+comment4.target=void\ displayUniverse()
+comment4.text=\n\ Displays\ the\ initial\ frame\ of\ the\ simulation\ that\ includes\ the\ planet\ objects\n
+comment5.params=
+comment5.target=void\ updatePhysics()
+comment5.text=\n\ Goes\ through\ each\ planet\ object,\ calculates\ force\ on\ the\ object\ and\ updates\ the\ planet\ object's\ positions\ and\ velocities.\ \n
+numComments=6
